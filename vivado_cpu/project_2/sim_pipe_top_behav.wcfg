@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_pipe_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_pipe_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="691916667fs"></ZoomStartTime>
+      <ZoomEndTime time="1040416668fs"></ZoomEndTime>
+      <Cursor1Time time="750000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="201" />
+   <wvobject type="divider" fp_name="divider5">
+      <obj_property name="label">sim_pipe_top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/i_pc" type="array">
+      <obj_property name="ElementShortName">i_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/start" type="array">
+      <obj_property name="ElementShortName">start[15:0]</obj_property>
+      <obj_property name="ObjectShortName">start[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider6">
+      <obj_property name="label">pipe_top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/src_pc" type="logic">
+      <obj_property name="ElementShortName">src_pc</obj_property>
+      <obj_property name="ObjectShortName">src_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/pc" type="array">
+      <obj_property name="ElementShortName">pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/next_pc" type="array">
+      <obj_property name="ElementShortName">next_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">next_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/M_icode" type="array">
+      <obj_property name="ElementShortName">M_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">M_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/M_Cnd" type="array">
+      <obj_property name="ElementShortName">M_Cnd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">M_Cnd[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/M_valA" type="array">
+      <obj_property name="ElementShortName">M_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">M_valA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/W_icode" type="array">
+      <obj_property name="ElementShortName">W_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">W_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/W_valM" type="array">
+      <obj_property name="ElementShortName">W_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">W_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/F_predPC" type="array">
+      <obj_property name="ElementShortName">F_predPC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">F_predPC[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/D_stat" type="array">
+      <obj_property name="ElementShortName">D_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">D_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/D_icode" type="array">
+      <obj_property name="ElementShortName">D_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/D_ifun" type="array">
+      <obj_property name="ElementShortName">D_ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D_ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/D_rA" type="array">
+      <obj_property name="ElementShortName">D_rA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D_rA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/D_rB" type="array">
+      <obj_property name="ElementShortName">D_rB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D_rB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/D_valC" type="array">
+      <obj_property name="ElementShortName">D_valC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">D_valC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/D_valP" type="array">
+      <obj_property name="ElementShortName">D_valP[63:0]</obj_property>
+      <obj_property name="ObjectShortName">D_valP[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/F_stall" type="logic">
+      <obj_property name="ElementShortName">F_stall</obj_property>
+      <obj_property name="ObjectShortName">F_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/D_stall" type="logic">
+      <obj_property name="ElementShortName">D_stall</obj_property>
+      <obj_property name="ObjectShortName">D_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/D_bubble" type="logic">
+      <obj_property name="ElementShortName">D_bubble</obj_property>
+      <obj_property name="ObjectShortName">D_bubble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/E_stat" type="array">
+      <obj_property name="ElementShortName">E_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">E_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/E_icode" type="array">
+      <obj_property name="ElementShortName">E_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">E_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/E_ifun" type="array">
+      <obj_property name="ElementShortName">E_ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">E_ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/E_valC" type="array">
+      <obj_property name="ElementShortName">E_valC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">E_valC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/E_valA" type="array">
+      <obj_property name="ElementShortName">E_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">E_valA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/E_valB" type="array">
+      <obj_property name="ElementShortName">E_valB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">E_valB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/E_dstE" type="array">
+      <obj_property name="ElementShortName">E_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">E_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/E_dstM" type="array">
+      <obj_property name="ElementShortName">E_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">E_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/E_srcA" type="array">
+      <obj_property name="ElementShortName">E_srcA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">E_srcA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/E_srcB" type="array">
+      <obj_property name="ElementShortName">E_srcB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">E_srcB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/e_dstE" type="array">
+      <obj_property name="ElementShortName">e_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">e_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/e_valE" type="array">
+      <obj_property name="ElementShortName">e_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">e_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/M_dstE" type="array">
+      <obj_property name="ElementShortName">M_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">M_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/M_valE" type="array">
+      <obj_property name="ElementShortName">M_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">M_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/M_dstM" type="array">
+      <obj_property name="ElementShortName">M_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">M_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/m_valM" type="array">
+      <obj_property name="ElementShortName">m_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/W_dstM" type="array">
+      <obj_property name="ElementShortName">W_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">W_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/W_dstE" type="array">
+      <obj_property name="ElementShortName">W_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">W_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/W_valE" type="array">
+      <obj_property name="ElementShortName">W_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">W_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/E_bubble" type="logic">
+      <obj_property name="ElementShortName">E_bubble</obj_property>
+      <obj_property name="ObjectShortName">E_bubble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/d_srcA" type="array">
+      <obj_property name="ElementShortName">d_srcA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d_srcA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/d_srcB" type="array">
+      <obj_property name="ElementShortName">d_srcB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">d_srcB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/M_stat" type="array">
+      <obj_property name="ElementShortName">M_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">M_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/W_stat" type="array">
+      <obj_property name="ElementShortName">W_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">W_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/m_stat" type="array">
+      <obj_property name="ElementShortName">m_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/M_bubble" type="logic">
+      <obj_property name="ElementShortName">M_bubble</obj_property>
+      <obj_property name="ObjectShortName">M_bubble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/e_Cnd" type="logic">
+      <obj_property name="ElementShortName">e_Cnd</obj_property>
+      <obj_property name="ObjectShortName">e_Cnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/W_stall" type="logic">
+      <obj_property name="ElementShortName">W_stall</obj_property>
+      <obj_property name="ObjectShortName">W_stall</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider57">
+      <obj_property name="label">fetch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/i_pc" type="array">
+      <obj_property name="ElementShortName">i_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/i_M_icode" type="array">
+      <obj_property name="ElementShortName">i_M_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/i_M_Cnd" type="logic">
+      <obj_property name="ElementShortName">i_M_Cnd</obj_property>
+      <obj_property name="ObjectShortName">i_M_Cnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/i_M_valA" type="array">
+      <obj_property name="ElementShortName">i_M_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_valA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/i_W_icode" type="array">
+      <obj_property name="ElementShortName">i_W_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_W_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/i_W_valM" type="array">
+      <obj_property name="ElementShortName">i_W_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_W_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/o_F_predPC" type="array">
+      <obj_property name="ElementShortName">o_F_predPC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_F_predPC[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/o_D_stat" type="array">
+      <obj_property name="ElementShortName">o_D_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_D_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/o_D_icode" type="array">
+      <obj_property name="ElementShortName">o_D_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_D_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/o_D_ifun" type="array">
+      <obj_property name="ElementShortName">o_D_ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_D_ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/o_D_rA" type="array">
+      <obj_property name="ElementShortName">o_D_rA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_D_rA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/o_D_rB" type="array">
+      <obj_property name="ElementShortName">o_D_rB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_D_rB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/o_D_valC" type="array">
+      <obj_property name="ElementShortName">o_D_valC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_D_valC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/o_D_valP" type="array">
+      <obj_property name="ElementShortName">o_D_valP[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_D_valP[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/i_F_stall" type="logic">
+      <obj_property name="ElementShortName">i_F_stall</obj_property>
+      <obj_property name="ObjectShortName">i_F_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/i_D_stall" type="logic">
+      <obj_property name="ElementShortName">i_D_stall</obj_property>
+      <obj_property name="ObjectShortName">i_D_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/i_D_bubble" type="logic">
+      <obj_property name="ElementShortName">i_D_bubble</obj_property>
+      <obj_property name="ObjectShortName">i_D_bubble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/current_pc" type="array">
+      <obj_property name="ElementShortName">current_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">current_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/instr" type="array">
+      <obj_property name="ElementShortName">instr[79:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/need_rigids" type="logic">
+      <obj_property name="ElementShortName">need_rigids</obj_property>
+      <obj_property name="ObjectShortName">need_rigids</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/need_valC" type="logic">
+      <obj_property name="ElementShortName">need_valC</obj_property>
+      <obj_property name="ObjectShortName">need_valC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/icode" type="array">
+      <obj_property name="ElementShortName">icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/ifun" type="array">
+      <obj_property name="ElementShortName">ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider82">
+      <obj_property name="label">imem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/u_imem/i_pc" type="array">
+      <obj_property name="ElementShortName">i_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/u_imem/o_instr" type="array">
+      <obj_property name="ElementShortName">o_instr[79:0]</obj_property>
+      <obj_property name="ObjectShortName">o_instr[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/ufetch/u_imem/ROM" type="array">
+      <obj_property name="ElementShortName">ROM[99:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM[99:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider86">
+      <obj_property name="label">decode_write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_D_stat" type="array">
+      <obj_property name="ElementShortName">i_D_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_D_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_D_icode" type="array">
+      <obj_property name="ElementShortName">i_D_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_D_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_D_ifun" type="array">
+      <obj_property name="ElementShortName">i_D_ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_D_ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_D_rA" type="array">
+      <obj_property name="ElementShortName">i_D_rA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_D_rA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_D_rB" type="array">
+      <obj_property name="ElementShortName">i_D_rB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_D_rB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_D_valC" type="array">
+      <obj_property name="ElementShortName">i_D_valC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_D_valC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_D_valP" type="array">
+      <obj_property name="ElementShortName">i_D_valP[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_D_valP[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_E_stat" type="array">
+      <obj_property name="ElementShortName">o_E_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_E_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_E_icode" type="array">
+      <obj_property name="ElementShortName">o_E_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_E_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_E_ifun" type="array">
+      <obj_property name="ElementShortName">o_E_ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_E_ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_E_valC" type="array">
+      <obj_property name="ElementShortName">o_E_valC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_E_valC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_E_valA" type="array">
+      <obj_property name="ElementShortName">o_E_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_E_valA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_E_valB" type="array">
+      <obj_property name="ElementShortName">o_E_valB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_E_valB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_E_dstE" type="array">
+      <obj_property name="ElementShortName">o_E_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_E_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_E_dstM" type="array">
+      <obj_property name="ElementShortName">o_E_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_E_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_E_srcA" type="array">
+      <obj_property name="ElementShortName">o_E_srcA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_E_srcA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_E_srcB" type="array">
+      <obj_property name="ElementShortName">o_E_srcB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_E_srcB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_e_dstE" type="array">
+      <obj_property name="ElementShortName">i_e_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_e_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_e_valE" type="array">
+      <obj_property name="ElementShortName">i_e_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_e_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_M_dstE" type="array">
+      <obj_property name="ElementShortName">i_M_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_M_valE" type="array">
+      <obj_property name="ElementShortName">i_M_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_M_dstM" type="array">
+      <obj_property name="ElementShortName">i_M_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_m_valM" type="array">
+      <obj_property name="ElementShortName">i_m_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_m_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_W_dstM" type="array">
+      <obj_property name="ElementShortName">i_W_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_W_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_W_valM" type="array">
+      <obj_property name="ElementShortName">i_W_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_W_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_W_dstE" type="array">
+      <obj_property name="ElementShortName">i_W_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_W_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_W_valE" type="array">
+      <obj_property name="ElementShortName">i_W_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_W_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/i_E_bubble" type="logic">
+      <obj_property name="ElementShortName">i_E_bubble</obj_property>
+      <obj_property name="ObjectShortName">i_E_bubble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_d_srcA" type="array">
+      <obj_property name="ElementShortName">o_d_srcA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_d_srcA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/o_d_srcB" type="array">
+      <obj_property name="ElementShortName">o_d_srcB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_d_srcB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/d_rvalA" type="array">
+      <obj_property name="ElementShortName">d_rvalA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">d_rvalA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/d_rvalB" type="array">
+      <obj_property name="ElementShortName">d_rvalB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">d_rvalB[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider120">
+      <obj_property name="label">reg_set</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM" type="array">
+      <obj_property name="ElementShortName">RAM[15:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[15:0][63:0]</obj_property>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[15]" type="array">
+         <obj_property name="ElementShortName">[15][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[14]" type="array">
+         <obj_property name="ElementShortName">[14][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[13]" type="array">
+         <obj_property name="ElementShortName">[13][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[12]" type="array">
+         <obj_property name="ElementShortName">[12][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[11]" type="array">
+         <obj_property name="ElementShortName">[11][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[10]" type="array">
+         <obj_property name="ElementShortName">[10][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[9]" type="array">
+         <obj_property name="ElementShortName">[9][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[8]" type="array">
+         <obj_property name="ElementShortName">[8][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[7]" type="array">
+         <obj_property name="ElementShortName">[7][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[6]" type="array">
+         <obj_property name="ElementShortName">[6][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[5]" type="array">
+         <obj_property name="ElementShortName">[5][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[4]" type="array">
+         <obj_property name="ElementShortName">[4][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[3]" type="array">
+         <obj_property name="ElementShortName">[3][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[2]" type="array">
+         <obj_property name="ElementShortName">[2][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[1]" type="array">
+         <obj_property name="ElementShortName">[1][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/RAM[0]" type="array">
+         <obj_property name="ElementShortName">[0][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][63:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/i_rA" type="array">
+      <obj_property name="ElementShortName">i_rA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_rA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/i_rB" type="array">
+      <obj_property name="ElementShortName">i_rB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_rB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/o_valA" type="array">
+      <obj_property name="ElementShortName">o_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_valA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/o_valB" type="array">
+      <obj_property name="ElementShortName">o_valB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_valB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/i_dstE" type="array">
+      <obj_property name="ElementShortName">i_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/i_dstM" type="array">
+      <obj_property name="ElementShortName">i_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/i_valE" type="array">
+      <obj_property name="ElementShortName">i_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/udecode_write/ureg_set/i_valM" type="array">
+      <obj_property name="ElementShortName">i_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider132">
+      <obj_property name="label">execute</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_E_stat" type="array">
+      <obj_property name="ElementShortName">i_E_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_E_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_E_icode" type="array">
+      <obj_property name="ElementShortName">i_E_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_E_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_E_ifun" type="array">
+      <obj_property name="ElementShortName">i_E_ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_E_ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_E_valC" type="array">
+      <obj_property name="ElementShortName">i_E_valC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_E_valC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_E_valA" type="array">
+      <obj_property name="ElementShortName">i_E_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_E_valA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_E_valB" type="array">
+      <obj_property name="ElementShortName">i_E_valB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_E_valB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_E_dstE" type="array">
+      <obj_property name="ElementShortName">i_E_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_E_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_E_dstM" type="array">
+      <obj_property name="ElementShortName">i_E_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_E_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/o_M_stat" type="array">
+      <obj_property name="ElementShortName">o_M_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_M_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/o_M_icode" type="array">
+      <obj_property name="ElementShortName">o_M_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_M_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/o_M_Cnd" type="logic">
+      <obj_property name="ElementShortName">o_M_Cnd</obj_property>
+      <obj_property name="ObjectShortName">o_M_Cnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/o_M_valE" type="array">
+      <obj_property name="ElementShortName">o_M_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_M_valE[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/o_M_valA" type="array">
+      <obj_property name="ElementShortName">o_M_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_M_valA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/o_M_dstE" type="array">
+      <obj_property name="ElementShortName">o_M_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_M_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/o_M_dstM" type="array">
+      <obj_property name="ElementShortName">o_M_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_M_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_W_stat" type="array">
+      <obj_property name="ElementShortName">i_W_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_W_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_m_stat" type="array">
+      <obj_property name="ElementShortName">i_m_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_m_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/o_e_dstE" type="array">
+      <obj_property name="ElementShortName">o_e_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_e_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/o_e_valE" type="array">
+      <obj_property name="ElementShortName">o_e_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_e_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/i_M_bubble" type="logic">
+      <obj_property name="ElementShortName">i_M_bubble</obj_property>
+      <obj_property name="ObjectShortName">i_M_bubble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/o_e_Cnd" type="logic">
+      <obj_property name="ElementShortName">o_e_Cnd</obj_property>
+      <obj_property name="ObjectShortName">o_e_Cnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/ALUA" type="array">
+      <obj_property name="ElementShortName">ALUA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/ALUB" type="array">
+      <obj_property name="ElementShortName">ALUB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/need_alu" type="logic">
+      <obj_property name="ElementShortName">need_alu</obj_property>
+      <obj_property name="ObjectShortName">need_alu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/set_cc" type="logic">
+      <obj_property name="ElementShortName">set_cc</obj_property>
+      <obj_property name="ObjectShortName">set_cc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/ZF" type="logic">
+      <obj_property name="ElementShortName">ZF</obj_property>
+      <obj_property name="ObjectShortName">ZF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/SF" type="logic">
+      <obj_property name="ElementShortName">SF</obj_property>
+      <obj_property name="ObjectShortName">SF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/uexecute/OF" type="logic">
+      <obj_property name="ElementShortName">OF</obj_property>
+      <obj_property name="ObjectShortName">OF</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider162">
+      <obj_property name="label">mem_access</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/i_M_stat" type="array">
+      <obj_property name="ElementShortName">i_M_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/i_M_icode" type="array">
+      <obj_property name="ElementShortName">i_M_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/i_M_valE" type="array">
+      <obj_property name="ElementShortName">i_M_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/i_M_valA" type="array">
+      <obj_property name="ElementShortName">i_M_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_valA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/i_M_dstE" type="array">
+      <obj_property name="ElementShortName">i_M_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/i_M_dstM" type="array">
+      <obj_property name="ElementShortName">i_M_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/o_W_valE" type="array">
+      <obj_property name="ElementShortName">o_W_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_W_valE[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/o_W_valM" type="array">
+      <obj_property name="ElementShortName">o_W_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_W_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/o_W_dstE" type="array">
+      <obj_property name="ElementShortName">o_W_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_W_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/o_W_dstM" type="array">
+      <obj_property name="ElementShortName">o_W_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_W_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/o_W_stat" type="array">
+      <obj_property name="ElementShortName">o_W_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_W_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/o_W_icode" type="array">
+      <obj_property name="ElementShortName">o_W_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_W_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/o_m_valM" type="array">
+      <obj_property name="ElementShortName">o_m_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_m_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/i_W_stall" type="logic">
+      <obj_property name="ElementShortName">i_W_stall</obj_property>
+      <obj_property name="ObjectShortName">i_W_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/mem_en" type="logic">
+      <obj_property name="ElementShortName">mem_en</obj_property>
+      <obj_property name="ObjectShortName">mem_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/mem_wr" type="logic">
+      <obj_property name="ElementShortName">mem_wr</obj_property>
+      <obj_property name="ObjectShortName">mem_wr</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider180">
+      <obj_property name="label">dmem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/u_dmem/i_mem_addr" type="array">
+      <obj_property name="ElementShortName">i_mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/u_dmem/i_mem_wr_data" type="array">
+      <obj_property name="ElementShortName">i_mem_wr_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_mem_wr_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/u_dmem/i_mem_en" type="logic">
+      <obj_property name="ElementShortName">i_mem_en</obj_property>
+      <obj_property name="ObjectShortName">i_mem_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/u_dmem/i_mem_wr" type="logic">
+      <obj_property name="ElementShortName">i_mem_wr</obj_property>
+      <obj_property name="ObjectShortName">i_mem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/umem_access/u_dmem/o_mem_rd_data" type="array">
+      <obj_property name="ElementShortName">o_mem_rd_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_mem_rd_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider186">
+      <obj_property name="label">pipe_ctrl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/i_E_icode" type="array">
+      <obj_property name="ElementShortName">i_E_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_E_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/i_E_dstM" type="array">
+      <obj_property name="ElementShortName">i_E_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_E_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/i_D_icode" type="array">
+      <obj_property name="ElementShortName">i_D_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_D_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/i_M_icode" type="array">
+      <obj_property name="ElementShortName">i_M_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_M_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/i_e_Cnd" type="logic">
+      <obj_property name="ElementShortName">i_e_Cnd</obj_property>
+      <obj_property name="ObjectShortName">i_e_Cnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/i_d_srcA" type="array">
+      <obj_property name="ElementShortName">i_d_srcA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_d_srcA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/i_d_srcB" type="array">
+      <obj_property name="ElementShortName">i_d_srcB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_d_srcB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/i_m_stat" type="array">
+      <obj_property name="ElementShortName">i_m_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_m_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/i_W_stat" type="array">
+      <obj_property name="ElementShortName">i_W_stat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_W_stat[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/o_F_stall" type="logic">
+      <obj_property name="ElementShortName">o_F_stall</obj_property>
+      <obj_property name="ObjectShortName">o_F_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/o_D_stall" type="logic">
+      <obj_property name="ElementShortName">o_D_stall</obj_property>
+      <obj_property name="ObjectShortName">o_D_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/o_D_bubble" type="logic">
+      <obj_property name="ElementShortName">o_D_bubble</obj_property>
+      <obj_property name="ObjectShortName">o_D_bubble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/o_E_bubble" type="logic">
+      <obj_property name="ElementShortName">o_E_bubble</obj_property>
+      <obj_property name="ObjectShortName">o_E_bubble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/o_M_bubble" type="logic">
+      <obj_property name="ElementShortName">o_M_bubble</obj_property>
+      <obj_property name="ObjectShortName">o_M_bubble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_pipe_top/upipe_top/upipe_ctrl/o_W_stall" type="logic">
+      <obj_property name="ElementShortName">o_W_stall</obj_property>
+      <obj_property name="ObjectShortName">o_W_stall</obj_property>
+   </wvobject>
+</wave_config>

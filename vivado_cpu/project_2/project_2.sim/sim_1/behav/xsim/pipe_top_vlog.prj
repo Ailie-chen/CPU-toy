@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "F:/vivado_cpu/project_2/project_2.srcs/sources_1/new/cpu_param.vh" --include "../../../../project_2.srcs/sources_1/new" \
+"../../../../project_2.srcs/sources_1/new/decode_write.v" \
+"../../../../project_2.srcs/sources_1/new/dmem.v" \
+"../../../../project_2.srcs/sources_1/new/execute.v" \
+"../../../../project_2.srcs/sources_1/new/fetch.v" \
+"../../../../project_2.srcs/sources_1/new/imem.v" \
+"../../../../project_2.srcs/sources_1/new/mem_access.v" \
+"../../../../project_2.srcs/sources_1/new/pipe_ctrl.v" \
+"../../../../project_2.srcs/sources_1/new/reg_set.v" \
+"../../../../project_2.srcs/sources_1/new/pipe_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

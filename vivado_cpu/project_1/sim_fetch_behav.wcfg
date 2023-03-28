@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_seq_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_seq_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="423200000fs"></ZoomStartTime>
+      <ZoomEndTime time="541600001fs"></ZoomEndTime>
+      <Cursor1Time time="466000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="111" />
+   <wvobject type="divider" fp_name="divider396">
+      <obj_property name="label">sim_top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/i_pc" type="array">
+      <obj_property name="ElementShortName">i_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/start" type="array">
+      <obj_property name="ElementShortName">start[15:0]</obj_property>
+      <obj_property name="ObjectShortName">start[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group181" type="group">
+      <obj_property name="label">seq_top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sim_seq_top/udeq_top/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/i_rst_n" type="logic">
+         <obj_property name="ElementShortName">i_rst_n</obj_property>
+         <obj_property name="ObjectShortName">i_rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/src_pc" type="logic">
+         <obj_property name="ElementShortName">src_pc</obj_property>
+         <obj_property name="ObjectShortName">src_pc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/next_pc" type="array">
+         <obj_property name="ElementShortName">next_pc[15:0]</obj_property>
+         <obj_property name="ObjectShortName">next_pc[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/icode" type="array">
+         <obj_property name="ElementShortName">icode[3:0]</obj_property>
+         <obj_property name="ObjectShortName">icode[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/ifun" type="array">
+         <obj_property name="ElementShortName">ifun[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ifun[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/rA" type="array">
+         <obj_property name="ElementShortName">rA[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rA[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/rB" type="array">
+         <obj_property name="ElementShortName">rB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/valC" type="array">
+         <obj_property name="ElementShortName">valC[63:0]</obj_property>
+         <obj_property name="ObjectShortName">valC[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/instr_valid" type="logic">
+         <obj_property name="ElementShortName">instr_valid</obj_property>
+         <obj_property name="ObjectShortName">instr_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/valP" type="array">
+         <obj_property name="ElementShortName">valP[15:0]</obj_property>
+         <obj_property name="ObjectShortName">valP[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/valA" type="array">
+         <obj_property name="ElementShortName">valA[63:0]</obj_property>
+         <obj_property name="ObjectShortName">valA[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/valB" type="array">
+         <obj_property name="ElementShortName">valB[63:0]</obj_property>
+         <obj_property name="ObjectShortName">valB[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/valE" type="array">
+         <obj_property name="ElementShortName">valE[63:0]</obj_property>
+         <obj_property name="ObjectShortName">valE[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/valM" type="array">
+         <obj_property name="ElementShortName">valM[63:0]</obj_property>
+         <obj_property name="ObjectShortName">valM[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/cnd" type="logic">
+         <obj_property name="ElementShortName">cnd</obj_property>
+         <obj_property name="ObjectShortName">cnd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/stat" type="array">
+         <obj_property name="ElementShortName">stat[1:0]</obj_property>
+         <obj_property name="ObjectShortName">stat[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/pc" type="array">
+         <obj_property name="ElementShortName">pc[15:0]</obj_property>
+         <obj_property name="ObjectShortName">pc[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider200">
+      <obj_property name="label">fetch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/i_pc" type="array">
+      <obj_property name="ElementShortName">i_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/o_icode" type="array">
+      <obj_property name="ElementShortName">o_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/o_ifun" type="array">
+      <obj_property name="ElementShortName">o_ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/o_rA" type="array">
+      <obj_property name="ElementShortName">o_rA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_rA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/o_rB" type="array">
+      <obj_property name="ElementShortName">o_rB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_rB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/o_valC" type="array">
+      <obj_property name="ElementShortName">o_valC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_valC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/o_need_valC" type="logic">
+      <obj_property name="ElementShortName">o_need_valC</obj_property>
+      <obj_property name="ObjectShortName">o_need_valC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/o_need_rigids" type="logic">
+      <obj_property name="ElementShortName">o_need_rigids</obj_property>
+      <obj_property name="ObjectShortName">o_need_rigids</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/o_instr_valid" type="logic">
+      <obj_property name="ElementShortName">o_instr_valid</obj_property>
+      <obj_property name="ObjectShortName">o_instr_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/o_valP" type="array">
+      <obj_property name="ElementShortName">o_valP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_valP[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/instr" type="array">
+      <obj_property name="ElementShortName">instr[79:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/pc_r" type="array">
+      <obj_property name="ElementShortName">pc_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider215">
+      <obj_property name="label">imem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/u_imem/i_pc" type="array">
+      <obj_property name="ElementShortName">i_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/u_imem/o_instr" type="array">
+      <obj_property name="ElementShortName">o_instr[79:0]</obj_property>
+      <obj_property name="ObjectShortName">o_instr[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/u_imem/ROM" type="array">
+      <obj_property name="ElementShortName">ROM[99:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM[99:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider219">
+      <obj_property name="label">addpc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/u_addpc/i_pc" type="array">
+      <obj_property name="ElementShortName">i_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/u_addpc/i_need_valC" type="logic">
+      <obj_property name="ElementShortName">i_need_valC</obj_property>
+      <obj_property name="ObjectShortName">i_need_valC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/u_addpc/i_need_rigids" type="logic">
+      <obj_property name="ElementShortName">i_need_rigids</obj_property>
+      <obj_property name="ObjectShortName">i_need_rigids</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/ufetch/u_addpc/o_valP" type="array">
+      <obj_property name="ElementShortName">o_valP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_valP[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider224">
+      <obj_property name="label">decode_write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/i_icode" type="array">
+      <obj_property name="ElementShortName">i_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/i_ifun" type="array">
+      <obj_property name="ElementShortName">i_ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/i_rA" type="array">
+      <obj_property name="ElementShortName">i_rA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_rA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/i_rB" type="array">
+      <obj_property name="ElementShortName">i_rB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_rB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/o_valA" type="array">
+      <obj_property name="ElementShortName">o_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_valA[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/o_valB" type="array">
+      <obj_property name="ElementShortName">o_valB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_valB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/i_valE" type="array">
+      <obj_property name="ElementShortName">i_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/i_valM" type="array">
+      <obj_property name="ElementShortName">i_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/srcA" type="array">
+      <obj_property name="ElementShortName">srcA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">srcA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/srcB" type="array">
+      <obj_property name="ElementShortName">srcB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">srcB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/dstE" type="array">
+      <obj_property name="ElementShortName">dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/dstM" type="array">
+      <obj_property name="ElementShortName">dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider238">
+      <obj_property name="label">reg_set</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/i_rA" type="array">
+      <obj_property name="ElementShortName">i_rA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_rA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/i_rB" type="array">
+      <obj_property name="ElementShortName">i_rB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_rB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/o_valA" type="array">
+      <obj_property name="ElementShortName">o_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_valA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/o_valB" type="array">
+      <obj_property name="ElementShortName">o_valB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_valB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/i_dstE" type="array">
+      <obj_property name="ElementShortName">i_dstE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_dstE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/i_dstM" type="array">
+      <obj_property name="ElementShortName">i_dstM[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_dstM[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/i_valE" type="array">
+      <obj_property name="ElementShortName">i_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/i_valM" type="array">
+      <obj_property name="ElementShortName">i_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM" type="array">
+      <obj_property name="ElementShortName">RAM[15:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[15:0][63:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[15]" type="array">
+         <obj_property name="ElementShortName">[15][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[14]" type="array">
+         <obj_property name="ElementShortName">[14][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[13]" type="array">
+         <obj_property name="ElementShortName">[13][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[12]" type="array">
+         <obj_property name="ElementShortName">[12][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[11]" type="array">
+         <obj_property name="ElementShortName">[11][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[10]" type="array">
+         <obj_property name="ElementShortName">[10][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[9]" type="array">
+         <obj_property name="ElementShortName">[9][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[8]" type="array">
+         <obj_property name="ElementShortName">[8][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[7]" type="array">
+         <obj_property name="ElementShortName">[7][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[6]" type="array">
+         <obj_property name="ElementShortName">[6][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[5]" type="array">
+         <obj_property name="ElementShortName">[5][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[4]" type="array">
+         <obj_property name="ElementShortName">[4][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[3]" type="array">
+         <obj_property name="ElementShortName">[3][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[2]" type="array">
+         <obj_property name="ElementShortName">[2][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[1]" type="array">
+         <obj_property name="ElementShortName">[1][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[0]" type="array">
+         <obj_property name="ElementShortName">[0][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[15]" type="array">
+         <obj_property name="ElementShortName">[15][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[14]" type="array">
+         <obj_property name="ElementShortName">[14][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[13]" type="array">
+         <obj_property name="ElementShortName">[13][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[12]" type="array">
+         <obj_property name="ElementShortName">[12][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[11]" type="array">
+         <obj_property name="ElementShortName">[11][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[10]" type="array">
+         <obj_property name="ElementShortName">[10][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[9]" type="array">
+         <obj_property name="ElementShortName">[9][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[8]" type="array">
+         <obj_property name="ElementShortName">[8][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[7]" type="array">
+         <obj_property name="ElementShortName">[7][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[6]" type="array">
+         <obj_property name="ElementShortName">[6][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[5]" type="array">
+         <obj_property name="ElementShortName">[5][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[4]" type="array">
+         <obj_property name="ElementShortName">[4][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[3]" type="array">
+         <obj_property name="ElementShortName">[3][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[2]" type="array">
+         <obj_property name="ElementShortName">[2][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[1]" type="array">
+         <obj_property name="ElementShortName">[1][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sim_seq_top/udeq_top/u_decode_write/ureg_set/RAM[0]" type="array">
+         <obj_property name="ElementShortName">[0][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][63:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider249">
+      <obj_property name="label">execute</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/i_icode" type="array">
+      <obj_property name="ElementShortName">i_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/i_ifun" type="array">
+      <obj_property name="ElementShortName">i_ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/i_valA" type="array">
+      <obj_property name="ElementShortName">i_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/i_valB" type="array">
+      <obj_property name="ElementShortName">i_valB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/i_valC" type="array">
+      <obj_property name="ElementShortName">i_valC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/o_Cnd" type="logic">
+      <obj_property name="ElementShortName">o_Cnd</obj_property>
+      <obj_property name="ObjectShortName">o_Cnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/o_valE" type="array">
+      <obj_property name="ElementShortName">o_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/ALUA" type="array">
+      <obj_property name="ElementShortName">ALUA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/ALUB" type="array">
+      <obj_property name="ElementShortName">ALUB[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUB[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/need_alu" type="logic">
+      <obj_property name="ElementShortName">need_alu</obj_property>
+      <obj_property name="ObjectShortName">need_alu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/set_cc" type="logic">
+      <obj_property name="ElementShortName">set_cc</obj_property>
+      <obj_property name="ObjectShortName">set_cc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/ZF" type="logic">
+      <obj_property name="ElementShortName">ZF</obj_property>
+      <obj_property name="ObjectShortName">ZF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/SF" type="logic">
+      <obj_property name="ElementShortName">SF</obj_property>
+      <obj_property name="ObjectShortName">SF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_execute/OF" type="logic">
+      <obj_property name="ElementShortName">OF</obj_property>
+      <obj_property name="ObjectShortName">OF</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider264">
+      <obj_property name="label">mem_access</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/i_valE" type="array">
+      <obj_property name="ElementShortName">i_valE[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valE[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/i_valA" type="array">
+      <obj_property name="ElementShortName">i_valA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valA[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/i_valP" type="array">
+      <obj_property name="ElementShortName">i_valP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valP[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/i_icode" type="array">
+      <obj_property name="ElementShortName">i_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/i_ifun" type="array">
+      <obj_property name="ElementShortName">i_ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/i_instr_valid" type="logic">
+      <obj_property name="ElementShortName">i_instr_valid</obj_property>
+      <obj_property name="ObjectShortName">i_instr_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/o_valM" type="array">
+      <obj_property name="ElementShortName">o_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/o_stat" type="array">
+      <obj_property name="ElementShortName">o_stat[2:0]</obj_property>
+      <obj_property name="ObjectShortName">o_stat[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/mem_data" type="array">
+      <obj_property name="ElementShortName">mem_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/mem_en" type="logic">
+      <obj_property name="ElementShortName">mem_en</obj_property>
+      <obj_property name="ObjectShortName">mem_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/mem_wr" type="logic">
+      <obj_property name="ElementShortName">mem_wr</obj_property>
+      <obj_property name="ObjectShortName">mem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/SADR" type="array">
+      <obj_property name="ElementShortName">SADR[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SADR[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/SINS" type="array">
+      <obj_property name="ElementShortName">SINS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SINS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/SHLT" type="array">
+      <obj_property name="ElementShortName">SHLT[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SHLT[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/SAOK" type="array">
+      <obj_property name="ElementShortName">SAOK[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SAOK[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider281">
+      <obj_property name="label">dmem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/i_mem_addr" type="array">
+      <obj_property name="ElementShortName">i_mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_mem_addr[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/i_mem_wr_data" type="array">
+      <obj_property name="ElementShortName">i_mem_wr_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_mem_wr_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/i_mem_en" type="logic">
+      <obj_property name="ElementShortName">i_mem_en</obj_property>
+      <obj_property name="ObjectShortName">i_mem_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/i_mem_wr" type="logic">
+      <obj_property name="ElementShortName">i_mem_wr</obj_property>
+      <obj_property name="ObjectShortName">i_mem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/o_mem_rd_data" type="array">
+      <obj_property name="ElementShortName">o_mem_rd_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_mem_rd_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider287">
+      <obj_property name="label">pc_fresh</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_pc_fresh/i_icode" type="array">
+      <obj_property name="ElementShortName">i_icode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_icode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_pc_fresh/i_ifun" type="array">
+      <obj_property name="ElementShortName">i_ifun[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_ifun[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_pc_fresh/i_valC" type="array">
+      <obj_property name="ElementShortName">i_valC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_pc_fresh/i_valM" type="array">
+      <obj_property name="ElementShortName">i_valM[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valM[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_pc_fresh/i_cnd" type="logic">
+      <obj_property name="ElementShortName">i_cnd</obj_property>
+      <obj_property name="ObjectShortName">i_cnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_pc_fresh/i_valP" type="array">
+      <obj_property name="ElementShortName">i_valP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_valP[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_pc_fresh/o_next_pc" type="array">
+      <obj_property name="ElementShortName">o_next_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_next_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_pc_fresh/instr" type="array">
+      <obj_property name="ElementShortName">instr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/RAM[39]" type="array">
+      <obj_property name="ElementShortName">[39][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[39][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/RAM[69]" type="array">
+      <obj_property name="ElementShortName">[69][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[69][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/RAM[68]" type="array">
+      <obj_property name="ElementShortName">[68][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[68][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/RAM[67]" type="array">
+      <obj_property name="ElementShortName">[67][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[67][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/RAM[66]" type="array">
+      <obj_property name="ElementShortName">[66][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[66][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/RAM[65]" type="array">
+      <obj_property name="ElementShortName">[65][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[65][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/RAM[64]" type="array">
+      <obj_property name="ElementShortName">[64][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[64][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/RAM[63]" type="array">
+      <obj_property name="ElementShortName">[63][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[63][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_seq_top/udeq_top/u_mem_access/u_dmem/RAM[62]" type="array">
+      <obj_property name="ElementShortName">[62][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[62][7:0]</obj_property>
+   </wvobject>
+</wave_config>
